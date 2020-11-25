@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Guru_Suite]" parallel="none">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.automation.GuruBank.Scripts.Login"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.automation.GuruBank.Scripts.Login">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.automation.GuruBank.Scripts.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Guru_Suite] -->

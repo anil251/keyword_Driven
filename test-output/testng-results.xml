@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32889" started-at="2020-11-25T12:30:13Z" finished-at="2020-11-25T12:30:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32889" started-at="2020-11-25T12:30:13Z" finished-at="2020-11-25T12:30:46Z">
+      <class name="com.automation.GuruBank.Scripts.Login">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.automation.GuruBank.Scripts.Login@5ad851c9]" name="login" duration-ms="32845" started-at="2020-11-25T18:00:13Z" finished-at="2020-11-25T18:00:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.automation.GuruBank.Scripts.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
